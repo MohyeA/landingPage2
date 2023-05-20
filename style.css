@@ -1,0 +1,94 @@
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+* {
+    font-family: "Heebo", sans-serif;
+    color: #0000;
+}
+
+@media (min-width: 320px) and (max-width: 770px) {
+    form {
+        flex-direction: column;
+    }
+
+    h1 {
+        line-height: 4rem;
+        font-size: 4rem;
+    }
+
+    .title {
+        max-height: 25rem;
+    }
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+h1,
+p {
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-size: 1rem;
+    padding-top: 1.25rem;
+    padding: 0px 0.625rem;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(img/Path\ 15.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 46.865rem;
+
+}
+
+.details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.1875rem;
+    margin-top: 2.5rem;
+    padding-bottom: 50px;
+}
+
+input {
+    border: none;
+    border-bottom: 3px solid #0F5380;
+    background-color: #f6f6f6;
+    width: 18.75rem;
+    height: 2rem;
+}
+
+.labels {
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.1875rem;
+}
+
+button {
+    background-color: #0F5380;
+    color: white;
+    width: 10.360rem;
+    min-height: 3.120rem;
+    border: none;
+    margin-top: 1rem;
+}
